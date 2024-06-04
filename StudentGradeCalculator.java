@@ -1,9 +1,6 @@
 import java.util.*;
 
 public class StudentGradeCalculator{
-//     public static void percentages(int marks){
-//         int marks[] = new marks[5];
-//     }
     public static void grade(int percentages){
          
         if(percentages>= 90){
