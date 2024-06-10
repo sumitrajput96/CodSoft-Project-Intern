@@ -85,8 +85,8 @@ public class ATMInterface {
         BankAccount userAccount = new BankAccount(30000);
         ATM atm = new ATM(userAccount);
         System.out.println("Enter Your PIN");
-        String pin = sc.nextLine();
-        if (pin == "1234") {
+        int pin = sc.nextInt();
+        if (pin == 1234) {
             atm.run();
         } else {
             System.out.println("Wrong pin");
